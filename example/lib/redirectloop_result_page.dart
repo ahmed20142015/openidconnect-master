@@ -77,7 +77,7 @@ class _RedirectLoopResultPageState extends State<RedirectLoopResultPage> {
                         clientSecret: defaultClientSecret,
                         scopes: defaultscopes,
                         configuration: discoveryDocument!,
-                        redirectUrl: defaultRedirectUrl,
+                        //redirectUrl: defaultRedirectUrl,
                         autoRefresh: true,
                       );
                       setState(() {

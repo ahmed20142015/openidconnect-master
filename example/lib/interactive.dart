@@ -95,7 +95,7 @@ class _InteractivePageState extends State<InteractivePage> {
                         request: await InteractiveAuthorizationRequest.create(
                           clientId: defaultClientId,
                           clientSecret: defaultClientSecret,
-                          redirectUrl: defaultRedirectUrl,
+                          //redirectUrl: defaultRedirectUrl,
                           scopes: defaultscopes,
                           configuration: discoveryDocument!,
                           autoRefresh: false,
